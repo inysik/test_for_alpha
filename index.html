@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/variable.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <section class="contact-info">
+        <img src="./images/Group (9).png" alt="Contact Image" class="contact-info__image" height="16px">
+        <a href="tel:+7 812 409-52-22" class="contact-info__phone">8 812 409-52-22</a>
+    </section>
+    
+    <section class="input-section">
+        <div class="burger">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label class="burger-label" for="burger-checkbox"></label>
+        </div>
+        <div class="input-container">
+        <input type="text" id="standard-input" class="standard-input" placeholder=></input>
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none" class="search-icon">
+            <path d="M11.0667 12.5L6.86667 8.3C6.53333 8.56667 6.15 8.77778 5.71667 8.93333C5.28333 9.08889 4.82222 9.16667 4.33333 9.16667C3.12222 9.16667 2.09733 8.74711 1.25867 7.908C0.42 7.06889 0.000444444 6.044 0 4.83333C0 3.62222 0.419556 2.59733 1.25867 1.75867C2.09778 0.92 3.12267 0.500444 4.33333 0.5C5.54444 0.5 6.56933 0.919556 7.408 1.75867C8.24667 2.59778 8.66622 3.62267 8.66667 4.83333C8.66667 5.32222 8.58889 5.78333 8.43333 6.21667C8.27778 6.65 8.06667 7.03333 7.8 7.36667L12 11.5667L11.0667 12.5ZM4.33333 7.83333C5.16667 7.83333 5.87511 7.54156 6.45867 6.958C7.04222 6.37444 7.33378 5.66622 7.33333 4.83333C7.33333 4 7.04156 3.29156 6.458 2.708C5.87444 2.12444 5.16622 1.83289 4.33333 1.83333C3.5 1.83333 2.79156 2.12511 2.208 2.70867C1.62444 3.29222 1.33289 4.00044 1.33333 4.83333C1.33333 5.66667 1.62511 6.37511 2.20867 6.95867C2.79222 7.54222 3.50044 7.83378 4.33333 7.83333Z" fill="white"/>
+        </svg></div>
+    </section> -->
+
+    
+
+    <nav class="breadcrumb">
+        <ul class="breadcrumb-list">
+            <li><a href="#home">Главная <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" width="5" height="10" viewBox="0 0 5 10" fill="none">
+                <path d="M0.990782 9.19354L4.87326 5.32258C4.91935 5.27649 4.95207 5.22657 4.97142 5.17281C4.99078 5.11904 5.0003 5.06144 4.99999 5C4.99999 4.93855 4.99032 4.88095 4.97096 4.82719C4.95161 4.77342 4.91904 4.7235 4.87326 4.67742L0.990782 0.794934C0.883255 0.687407 0.748847 0.633644 0.587557 0.633644C0.426267 0.633644 0.288018 0.691248 0.172811 0.806455C0.0576038 0.921662 9.01284e-10 1.05607 1.22902e-09 1.20968C1.55676e-09 1.36329 0.0576038 1.4977 0.172811 1.61291L3.5599 5L0.172811 8.38709C0.0652843 8.49462 0.0115204 8.62718 0.0115204 8.78478C0.0115204 8.94239 0.0691242 9.07864 0.184331 9.19354C0.299539 9.30875 0.433947 9.36635 0.587557 9.36635C0.741167 9.36635 0.875575 9.30875 0.990782 9.19354Z" fill="white"/>
+                </svg></a></li>
+            <li>
+                <a href="#alfamarketing">Альфамаркетинг <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" width="5" height="10" viewBox="0 0 5 10" fill="none">
+                    <path d="M0.990782 9.19354L4.87326 5.32258C4.91935 5.27649 4.95207 5.22657 4.97142 5.17281C4.99078 5.11904 5.0003 5.06144 4.99999 5C4.99999 4.93855 4.99032 4.88095 4.97096 4.82719C4.95161 4.77342 4.91904 4.7235 4.87326 4.67742L0.990782 0.794934C0.883255 0.687407 0.748847 0.633644 0.587557 0.633644C0.426267 0.633644 0.288018 0.691248 0.172811 0.806455C0.0576038 0.921662 9.01284e-10 1.05607 1.22902e-09 1.20968C1.55676e-09 1.36329 0.0576038 1.4977 0.172811 1.61291L3.5599 5L0.172811 8.38709C0.0652843 8.49462 0.0115204 8.62718 0.0115204 8.78478C0.0115204 8.94239 0.0691242 9.07864 0.184331 9.19354C0.299539 9.30875 0.433947 9.36635 0.587557 9.36635C0.741167 9.36635 0.875575 9.30875 0.990782 9.19354Z" fill="white"/>
+                    </svg></a>
+                <ul class="breadcrumb-sublist">
+                    <li><a href="#srm">SRM</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="banner center">
+        <h1 class="header">CRM</h1>
+        <div class="image-container">
+            <img class="banner_img-mob" src="./images/Group 1321314616.png" alt="banner">
+            <img class="banner_img-desc" src="./images/Group 1321314604.png" alt="banner">
+            <img class="second_img" src="./images/Capa 1.png" alt="">
+        </div>
+        <div class="sticky-btns">
+            <ul class="sticky-btns__list">
+              <li class="ask sticky-btns__item" data-toggle="modal" data-target="#modal-widjet">
+                <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.04142 21.6667C8.37476 21.6667 7.81254 21.4306 7.35476 20.9583C6.89698 20.4861 6.69531 19.9306 6.74976 19.2917C6.83309 18.125 7.11087 17.1111 7.58309 16.25C8.05531 15.3889 8.80532 14.5 9.83309 13.5833C10.972 12.5833 11.8403 11.715 12.4381 10.9783C13.0359 10.2417 13.3342 9.40167 13.3331 8.45833C13.3331 7.31944 12.9514 6.375 12.1881 5.625C11.4248 4.875 10.362 4.5 8.99976 4.5C8.11087 4.5 7.35365 4.68778 6.72809 5.06333C6.10254 5.43889 5.59587 5.90389 5.20809 6.45833C4.8192 7.01389 4.34031 7.38889 3.77143 7.58333C3.20254 7.77778 2.65365 7.76389 2.12476 7.54167C1.48587 7.26389 1.04865 6.80555 0.813092 6.16667C0.577537 5.52778 0.62587 4.93056 0.958093 4.375C1.76365 3.125 2.84698 2.08333 4.20809 1.25C5.5692 0.416667 7.16643 0 8.99976 0C11.9164 0 14.1598 0.812222 15.7298 2.43667C17.2998 4.06111 18.0842 6.01278 18.0831 8.29167C18.0831 9.68056 17.7848 10.8683 17.1881 11.855C16.5914 12.8417 15.6536 13.9594 14.3748 15.2083C13.4303 16.0972 12.7636 16.8194 12.3748 17.375C11.9859 17.9306 11.722 18.5694 11.5831 19.2917C11.472 19.9861 11.1803 20.5556 10.7081 21C10.2359 21.4444 9.68031 21.6667 9.04142 21.6667ZM8.99976 31.6667C8.08309 31.6667 7.29809 31.34 6.64476 30.6867C5.99143 30.0333 5.66531 29.2489 5.66643 28.3333C5.66643 27.4167 5.99309 26.6317 6.64643 25.9783C7.29976 25.325 8.0842 24.9989 8.99976 25C9.91643 25 10.7014 25.3267 11.3548 25.98C12.0081 26.6333 12.3342 27.4178 12.3331 28.3333C12.3331 29.25 12.0064 30.035 11.3531 30.6883C10.6998 31.3417 9.91531 31.6678 8.99976 31.6667Z" fill="#F8EDFF"></path>
+                  </svg>
+              </li>
+              <li class="phone sticky-btns__item" data-toggle="modal" data-target="#modal-callback">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M28.25 30C24.6667 30 21.1739 29.2011 17.7717 27.6033C14.3694 26.0056 11.3556 23.8944 8.73 21.27C6.10444 18.6456 3.99333 15.6317 2.39667 12.2283C0.8 8.825 0.00111111 5.33222 0 1.75C0 1.25 0.166667 0.833333 0.5 0.5C0.833333 0.166667 1.25 0 1.75 0H8.5C8.88889 0 9.23611 0.125 9.54167 0.375C9.84722 0.625 10.0278 0.944444 10.0833 1.33333L11.1667 7.16667C11.2222 7.55556 11.215 7.91 11.145 8.23C11.075 8.55 10.9156 8.83444 10.6667 9.08333L6.66667 13.1667C7.83333 15.1667 9.29167 17.0417 11.0417 18.7917C12.7917 20.5417 14.7222 22.0556 16.8333 23.3333L20.75 19.4167C21 19.1667 21.3267 18.9794 21.73 18.855C22.1333 18.7306 22.5289 18.6956 22.9167 18.75L28.6667 19.9167C29.0556 20 29.375 20.1878 29.625 20.48C29.875 20.7722 30 21.1122 30 21.5V28.25C30 28.75 29.8333 29.1667 29.5 29.5C29.1667 29.8333 28.75 30 28.25 30Z" fill="#F8EDFF"></path>
+                  </svg>
+              </li>
+            </ul>
+          </div>
+        <button class="button">Оставить заявку</button>
+    </section>
+    <section class="center">
+        <h2 class="header__second">Управление бизнес-процессами</h2>
+
+        <div class="container_grid">
+            <article class="grid-item">
+                <img class="mob" src="./images/1.png" alt="" srcset="">
+                <img class="desc"  src="./images/Удобное общение.png" alt="">
+                <p class="text">Удобное общение с заказчиками</p>
+            </article>
+            <article class="grid-item">
+                <img class="mob" src="./images/2.png" alt="" srcset="">
+                <img class="desc" src="./images/Лучшие CRM.png">
+                <p class="text">Лучшие CRM-системы</p>
+            </article>
+            <article class="grid-item">
+                <img  class="desc" src="./images/Повышение эффективности.png" alt="" srcset="">
+                <img  class="mob" src="./images/Group 1321314639.png" alt="" srcset="">
+                <p class="text">Повышение эффективности отдела продаж</p>
+            </article>
+            <article class="grid-item">
+                <img  class="desc" src="./images/Карточка.png" alt="" srcset="">
+                <img  class="mob" src="./images/4.png" alt="" srcset="">
+                <p class="text">Карточка с историей событий для каждого заказчика</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="container-cards center">
+        <div class="container-cards-flex"></div>
+        <div class="container">
+            <article class="left">
+                <img class="logo mob" src="./images/logo.svg.png" alt="" srcset="">
+                <img class="logo desc" src="./images/logo.svg (2).png" alt="" srcset="">
+                <img class="mob" src="./images/Group 1321314619.png" alt="" srcset="" width="90%">
+                <img class="desc img-left" src="./images/Group 1321314619 (1).png" alt="">
+            </article>
+            <article class="right">
+                <ul class="custom-list">
+                    <h3 class="custom-list-name"> Функции:</h3>
+                    <ul>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        CRM
+                    </li>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        Интеграция с другими сервисами
+                    </li>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        Онлайн-бот
+                    </li>
+                </ul>
+            </article>
+
+        </div>
+        <div class="container">
+            <article class="left">
+                <img class="logo desc" src="./images/Group (10).png" alt="" srcset="">
+                <img class="logo mob" src="./images/Group (2).png" alt="" srcset="">
+                <img class="mob" src="./images/image 1401 (1).png" alt="" srcset="" width="90%">
+                <img class="desc img-right" src="./images/image 1401 (2).png" alt="" srcset="">
+            </article>
+            <article class="right">
+                <ul class="custom-list">
+                    <h3 class="custom-list-name"> Функции:</h3>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        CRM
+                    </li>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        Корпоративный портал
+                    </li>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        Онлайн офис
+                    </li>
+                    <li class="custom-list-item">
+                        <img src="./images/check-circle-1.png" alt="">
+                        Интеграция с другими сервисами и т.д.
+                    </li>
+                </ul>
+            </article>
+
+        </div></div>
+    
+    
+    
+        <section class="form-container center">
+            <form class="application-form">
+                <h2 class="form-header">Оставить заявку</h2>
+                <p class="form-text">Выберите систему для вашего бизнеса, и мы свяжемся с Вами в течение 20 минут</p>
+    
+                <div class="form-group">
+                    <label for="name"></label>
+                    <div class="input-wrapper">
+                        <input class="input" type="text" id="name" name="name" placeholder="ФИО" required>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="phone"></label>
+                    <div class="input-wrapper">
+                        <input class="input" type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="system"></label>
+                    <div class="input-wrapper">
+                        <select class="input select" id="system" name="system" required>
+                            <option value="" disabled selected hidden>Выберете систему</option>
+                            <option value="amocrm">amoCRM</option>
+                            <option value="bitrix">Битрикс</option>
+                            <option value="help">Нужна помощь с выбором</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message"></label>
+                    <div class="input-wrapper">
+                        <textarea class="input" id="message" name="message"
+                            placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM"
+                            rows="5"></textarea>
+                    </div>
+                </div>
+    
+                <button type="submit" class="submit-button">Оставить заявку</button>
+            </form>
+        </section>
+    </section>
+  
+   
+    <section class="crm-benefits center">
+        <h2 class="crm-benefits-header">КОМУ ПОЛЕЗНА CRM</h2>
+ <div class="desc-max">
+        <div class="crm-benefits-container">
+            <ul>
+                <li>Любому бизнесу, работающему с клиентской базой</li>
+                <li>На компьютер, подключите гарнитуру и звоните прямо из CRM одним кликом</li>
+                <li>На компьютер, подключите гарнитуру и звоните прямо из CRM одним кликом</li>
+            </ul>
+        </div>
+        <img class="desc mobile-png" src="./images/Group 1321314625.png" alt="" height="500px">
+</div>
+    </section>
+
+    <section class="crm-in-business center">
+        <h2 class="crm-in-business-header">CRM В БИЗНЕСЕ</h2>
+        <p class="crm-in-business-text">Наши кейсы</p>
+        <div class="crm-in-business-container">
+        <div class="crm-in-business-content form-container">
+            <div class="crm-in-business-card">
+                <img src="./images/Group (4).png" width="118px" alt="">
+                <p class="crm-in-business-paragraph">г. Санкт-Петербург</p>
+            </div>
+            <div class="company-in-container">
+            <div class="company-info">
+                <h3 class="company-name">Пестовский Лесокомбинат</h3>
+                <p class="company-type">Строительная компания</p>
+                <span class="platform-info">Работают на платформе amoCRM</span>
+            </div>
+            <button class="more-detailed">Подробнее</button>
+        </div></div>
+        <div class="crm-in-business-content form-container">
+            <div class="crm-in-business-card">
+                <img src="./images/Group (5).png" width="118px" alt="">
+                <p class="crm-in-business-paragraph">г. Санкт-Петербург</p>
+            </div>
+            <div class="company-info">
+                <h3 class="company-name">Магазин “Mongol Store”</h3>
+                <p class="company-type">Одежда из натуральной шерсти</p>
+                <span class="platform-info">Используют БитриксCRM</span>
+            </div>
+                <button class="more-detailed">Подробнее</button>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="cost-of-setup center">
+        <h2 class="cost-of-setup-header">СТОИМОСТЬ ПОДКЛЮЧЕНИЯ</h2>
+        <div class="cost-of-setup-flex">
+            <div class="cost-of-setup-content">
+                <div class="cost-of-setup-item">
+                    <p class="cost-of-setup-description">Подключение системы CRM</p>
+                    <p class="cost-of-setup-price">от 10000</p>
+                </div>
+                <div class="cost-of-setup-benefit">
+                    <img src="./images/check-circle-1.png" alt="Иконка галочки" class="cost-of-setup-icon">
+                    <p class="cost-of-setup-benefit-text">Покупка любого тарифа со скидкой</p>
+                </div>
+                <button class="cost-of-setup-button submit-button orderButton">ЗАКАЗАТЬ 
+                    <img src="./images/Arrow.png" alt="Иконка стрелки" class="cost-of-setup-arrow">
+                </button>
+            </div>
+        </div>
+
+        <div class="popup-form-container" id="popupForm" style="display: none;">
+            <h2 class="popup-form-title">Форма для заполнения</h2>
+            <p class="popap-form-description">Оставьте свои контактные данные, и мы свяжемся с Вами в течение 20 минут</p>
+            <input type="tel" class="popap-form-input" placeholder="Ваш телефон">
+            <input type="email" class="popap-form-input" placeholder="@Почта*">
+            <button class="popap-form-button submit-button" id="submitForm">ОТПРАВИТЬ ЗАЯВКУ</button>
+            <div class="form-privacy-container">
+                <input type="checkbox" id="privacy-checkbox" class="privacy-checkbox">
+                <label for="privacy-checkbox" class="popup-form-privacy">
+                    Нажимая на кнопку, я соглашаюсь с условиями Политики конфиденциальности
+                </label>
+            </div>
+        </div>
+
+        <div class="success-container" id="successContainer" style="display: none;">
+            <button class="close" id="closeSuccess"><img src="./images/close.png" alt="Закрыть" width="25px" class="success-close"></button>
+            <img src="./images/Check.png" alt="Галочка" width="130px" class="success-icon">
+            <p class="success-message">Ваша заявка успешно отправлена!</p>
+        </div>
+
+        <div class="cost-of-setup-content">
+            <div class="cost-of-setup-item">
+                <p class="cost-of-setup-description">Подключение системы CRM</p>
+                <p class="cost-of-setup-price">от 10000</p>
+            </div>
+            <div class="cost-of-setup-benefit">
+                <img src="./images/check-circle-1.png" alt="Иконка галочки" class="cost-of-setup-icon">
+                <p class="cost-of-setup-benefit-text">Возможность продления лицензий со скидкой от официальных цен</p>
+            </div>
+            <button class="cost-of-setup-button submit-button orderButton">ЗАКАЗАТЬ 
+                <img src="./images/Arrow.png" alt="Иконка стрелки" class="cost-of-setup-arrow">
+            </button>
+        </div>
+
+        <div class="cost-of-setup-content">
+            <div class="cost-of-setup-item">
+                <p class="cost-of-setup-description">Подключение системы CRM</p>
+                <p class="cost-of-setup-price">от 10000</p>
+            </div>
+            <div class="cost-of-setup-benefit">
+                <img src="./images/check-circle-1.png" alt="Иконка галочки" class="cost-of-setup-icon">
+                <p class="cost-of-setup-benefit-text">Покупка любого тарифа со скидкой</p>
+            </div>
+            <div class="cost-of-setup-benefit">
+                <img src="./images/check-circle-1.png" alt="Иконка галочки" class="cost-of-setup-icon">
+                <p class="cost-of-setup-benefit-text">Индивидуальная настройка системы</p>
+            </div>
+            <button class="cost-of-setup-button submit-button orderButton">ЗАКАЗАТЬ 
+                <img src="./images/Arrow.png" alt="Иконка стрелки" class="cost-of-setup-arrow">
+            </button>
+        </div>
+    </section>
+
+
+    <section class="request-crm-setup center">
+        <h2 class="request-crm-setup-header">Заявка на подбор и подключение CRM-системы</h2>
+        <p class="request-crm-setup-text">Проведем аудит, подготовим решение для вашего бизнеса и рассчитаем стоимость
+        </p>
+        <div class="request-crm-setup-form">
+            <h2 class="form-header">Заполните форму</h2>
+            <p class="form-text">Оставьте свои контактные данные, мы свяжемся с Вами в течение 20 минут</p>
+            <div class="form-group">
+                <label for="phone"></label>
+                <div class="input-wrapper">
+                    <input class="input" type="text" id="name" name="name" placeholder="Имя" required>
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="phone"></label>
+                <div class="input-wrapper">
+                    <input class="input" type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                </div>
+            </div>
+          
+            <div class="form-group">
+                <label for="system"></label>
+                <div class="input-wrapper">
+                    <select class="input select" id="system" name="system" required>
+                        <option value="" disabled selected hidden>Выберите услугу</option>
+                        <option value="amocrm">Подключение</option>
+                        <option value="bitrix">Подключение + настройка</option>
+                        <option value="help">Продление лицензий amoCRM или Битрикс24</option>
+                    </select>
+                </div>
+            </div>
+            <button class="form-button submit-button">ОСТАВИТЬ ЗАЯВКУ</button>
+
+            <img class="banner_img-desc form-group-img" src="/images/Group 1321314634.png" alt="">
+
+        </div>
+    </section>
+
+    <section class="crm-partner-section center">
+        <h2 class="crm-partner-header">НАШ ПАРТНЁР ПО CRM-СИСТЕМАМ</h2>
+ <div class="crm-partner-section-flex">
+    <div>
+        <img class="banner_img-desc" src="./images/Image.png" alt="" srcset="">
+        <div class="crm-partner-logos border-gradient border-gradient-purple ">
+       
+     </div>
+
+     <div>
+        <img class="crm-partner-section-img-one" src="./images/Group (7).png" alt="">
+     </div>
+     <div>
+        <img class="crm-partner-section-img-two" src="./images/logo.svg (1).png" alt="">
+     </div></div>
+     <div style="display: flex;flex-direction: column;">
+     <hr class="hr">
+     <div class="crm-item">
+        <p class="crm-text">Битрикс24 (Управление бизнесом)</p>
+        <button class="crm-button">
+            <svg class="crm-icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.86 1.25L19.79 10M19.79 10L12.86 18.75M19.79 10L1.97 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <hr class="hr">
+    <div class="crm-item">
+        <p class="crm-text">amoCRM (Управление бизнесом)</p>
+        <button class="crm-button">
+            <svg class="crm-icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.86 1.25L19.79 10M19.79 10L12.86 18.75M19.79 10L1.97 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <hr class="hr"></div>
+</div>
+    </section>
+    <section class="contact-section center">
+        <h3 class="contact-title">Напишите нам!</h3>
+        <p class="contact-subtitle">Заполните заявку и Мы свяжемся с Вами в течение 15 минут</p>
+       <img class="image-form" src="./images/Form.png">
+        <form class="contact-form" action="">
+            <input type="text" class="contact-input name-input" placeholder="Имя*">
+            <input type="email" class="contact-input email-input" placeholder="@Почта*">
+            <input type="tel" class="contact-input phone-input" placeholder="+7 (___) ___ - __ - __">
+            <textarea class="contact-textarea" placeholder="Задать вопрос"></textarea>
+            <button class="contact-button ">задать вопрос</button>
+        </form>
+        <img class="banner_img-mob contact-image" src="./images/Rectangle.png"  alt="">
+        <img class="banner_img-desc contact-section-banner " src="./images/Rectangle (1).png" class="contact-image" alt="">
+    </section>
+
+    <!-- <section class="contacts-section">
+        <h3 class="contacts-title">Контакты</h3>
+        <p class="contacts-info">
+            Санкт-Петербург Заозёрная 8, к.2, офис 202<br>
+            Пн-Пт, 10:00 - 18:00<br>
+            8 (812) 409-52-22<br>
+            <a href="mailto:info@alpham.pro" class="contacts-info">info@alpham.pro</a>
+        </p>
+        <img src="./images/image 3.png" class="contacts-map" alt="Map">
+        <img src="./images/Group (8).png" class="contacts-building" alt="Building">
+        <div class="social-icons">
+            <img src="./images/Vector (2).png" class="social-icon" alt="Icon 1">
+            <img src="./images/Vector (3).png" class="social-icon" alt="Icon 2">
+        </div>
+        <p class="contacts-footer">© 2023 Альфа маркетинг | <a href="#"  class="contacts-footer">Политика конфиденциальности</a></p>
+    </section> -->
+    
+<script src="./js/popup.js"></script>
+</body>
+
+</html>
