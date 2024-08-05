@@ -63,7 +63,7 @@ button:hover {
 
         margin: 0;
         display: block;
-        background-image: url(/images/Фон_Страница_CRM.png);
+        background-image: url(../images/Фон_Страница_CRM.png);
         background-size: cover;
 
     }
@@ -1290,7 +1290,7 @@ border-radius: 60%;
 
         margin: 0;
         display: block;
-        background-image: url(/images/Фон_Страница_CRM.png);
+        background-image: url(../images/Фон_Страница_CRM.png);
         background-size: cover;
 
     }
@@ -2375,7 +2375,7 @@ border-radius: 60%;
         border: 4px dashed transparent;
         top: 139.62px;
         left: -1884.86px;
-        background-image: url(/images/Фон_Моб_CRM.png);
+        background-image: url(../images/Фон_Моб_CRM.png);
         background-size: cover;
     }
 
