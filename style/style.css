@@ -1010,7 +1010,7 @@ border-radius: 60%;
     .cost-of-setup-content {
         margin: 0 auto;
         margin-bottom: 20px;
-        width: 340px;
+        width: 325px;
         border-radius: 20px;
         opacity: 1;
         background: rgba(17, 11, 49, 1);
@@ -1302,7 +1302,7 @@ border-radius: 60%;
     }
 
     .banner {
-        background-image: url(/images/Capa\ 1\ \(1\).png);
+        background-image: url(../images/Capa\ 1\ \(1\).png);
         background-size: cover;
         margin-bottom: 120px;
     }
@@ -1418,12 +1418,12 @@ border-radius: 60%;
         display: flex;
     }
     .container-cards {
-        background-image: url(/images/Group\ 1.png)
+        background-image: url(./images/Group\ 1.png)
     }
 
 
     .left {
-        padding: 10px 0 10px 10px;
+        padding: 20px 0 10px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1512,6 +1512,7 @@ border-radius: 60%;
     }
 
     .left {
+        padding-top: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2686,7 +2687,7 @@ border-radius: 60%;
     }
 
     .left {
-        padding: 10px 0 10px 10px;
+        padding: 20px 0 10px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2779,7 +2780,7 @@ border-radius: 60%;
     .form-container {
         margin: 0 auto;
         background: rgba(72, 5, 114, 0.49);
-        width: 340px;
+        width: 325px;
         height: auto;
         padding: 26px 15px;
         border-radius: 32px;
@@ -3504,10 +3505,9 @@ border-radius: 60%;
 
     .crm-partner-logos {
         position: relative;
-
         height: 170px;
         width: 300px;
-        background-image: url("/images/Background\ \(1\).png");
+        background-image: url("./images/Background\ \(1\).png");
         background-repeat: no-repeat;
 
 
@@ -3524,7 +3524,7 @@ border-radius: 60%;
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url('/images/Background Pattern.png');
+        background-image: url('../images/Background\ Pattern.png');
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 20px;
@@ -3563,7 +3563,7 @@ border-radius: 60%;
         position: relative;
         z-index: 4;
         top: -139px;
-        left: 202px;
+        left: 190px;
     }
 
 
