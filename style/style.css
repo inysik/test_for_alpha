@@ -8,6 +8,7 @@
 .banner {
     position: relative;
     text-align: center;
+    /* height: 100vh; */
 }
 
 .sticky-btns {
@@ -39,7 +40,7 @@
     box-sizing: border-box;
     height: 50px;
     width: 40px;
-   filter: drop-shadow(0px 0px 10.6176px #00FFE1) drop-shadow(0px 0px 3.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+    filter: drop-shadow(0px 0px 10.6176px #00FFE1) drop-shadow(0px 0px 3.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
     animation: stickyanimate 1.3s linear infinite;
 }
 
@@ -56,32 +57,32 @@ button:hover {
 
 }
 
-@media (min-width: 601px) and (max-width: 1199px) {
+@media (min-width: 741px) and (max-width: 1199px) {
 
     body {
 
 
         margin: 0;
         display: block;
-        background-image: url(../images/Фон_Страница_CRM.png);
+        background-image: url('../images/Фон_Страница_CRM.png');
         background-size: cover;
 
     }
 
- 
+
     .center {
         padding-left: 50px;
         padding-right: 50px;
     }
 
     .banner {
-        background-image: url(/images/Capa\ 1\ \(1\).png);
+        background-image: url('../images/Capa.png');
         background-size: cover;
         margin-bottom: 120px;
     }
 
     .banner {
-        background-image: url(/images/Capa\ 1\ \(1\).png);
+        background-image: url('../images/Capa.png');
         background-size: cover;
         margin-bottom: 120px;
     }
@@ -113,7 +114,8 @@ button:hover {
     .img-right,
     .img-left,
     .banner_img-desc {
-        width: 75%;    }
+        width: 75%;
+    }
 
     .button {
 
@@ -193,7 +195,7 @@ button:hover {
     .container-cards {
         display: flex;
         flex-direction: column;
-        background-image: url(/images/Group\ 1\ \(1\).png);
+        background-image: url('../images/lines.png');
     }
 
 
@@ -256,8 +258,8 @@ button:hover {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-         
-  
+
+
 
     .custom-list-item {
         font-family: Play;
@@ -282,7 +284,7 @@ button:hover {
 
 
     }
-    
+
 
     li.custom-list-item img {
         margin-right: 10px;
@@ -512,7 +514,7 @@ button:hover {
         flex-direction: column;
         gap: 18px;
     }
-    
+
 
     .crm-benefits-container li {
         position: relative;
@@ -535,7 +537,7 @@ button:hover {
         transform: translateY(-70%);
         width: 50px;
         height: 55px;
-        background-image: url('../images/Checkbox\ \(1\).png');
+        background-image: url('../images/Checkbox_1.png');
         background-size: 50px;
     }
 
@@ -720,9 +722,11 @@ button:hover {
         -webkit-text-fill-color: transparent;
 
     }
-    .cost-of-setup{
+
+    .cost-of-setup {
         position: relative;
-     }
+    }
+
     .popup-form-container {
         margin: 0 auto;
         margin-bottom: 10px;
@@ -732,17 +736,17 @@ button:hover {
         border-radius: 32px;
         border: 2px solid transparent;
         background: linear-gradient(#dbbfff, #dbbfff) padding-box,
-                    linear-gradient(to right, #383fec, #23ffff) border-box;
+            linear-gradient(to right, #383fec, #23ffff) border-box;
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
-                    0px 0px 20px rgba(215, 149, 255, 1);
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
+            0px 0px 20px rgba(215, 149, 255, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 100;
     }
-    
-    
+
+
     .popup-form-title {
         font-family: Play;
         font-size: 24px;
@@ -750,10 +754,10 @@ button:hover {
         line-height: 46.8px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
-    
+
+
     }
-    
+
     .popap-form-description {
         font-family: Play;
         font-size: 15px;
@@ -761,9 +765,9 @@ button:hover {
         line-height: 19.5px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-input {
         margin-bottom: 17px;
         width: 95%;
@@ -779,16 +783,16 @@ button:hover {
         border-radius: 10px;
         border: 1px solid transparent;
         background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
-    
+
     }
-    
+
     .form-privacy-container {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-    
+
     }
-    
+
     .popup-form-privacy {
         font-family: Play;
         font-size: 10px;
@@ -796,9 +800,9 @@ button:hover {
         line-height: 15px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-button {
         width: 228px;
         height: 63px;
@@ -806,10 +810,10 @@ button:hover {
         gap: 10px;
         border-radius: 19px;
         margin-bottom: 17px;
-    
+
     }
-    
-    
+
+
     .success-container {
         margin: 0 auto;
         margin-bottom: 10px;
@@ -829,7 +833,7 @@ button:hover {
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
             0px 0px 20px rgba(215, 149, 255, 1)
     }
-    
+
     .success-message {
         position: relative;
         top: -35px;
@@ -840,9 +844,9 @@ button:hover {
         letter-spacing: -0.035em;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .close {
         position: relative;
         left: 285px;
@@ -850,164 +854,173 @@ button:hover {
         border: none;
         background-color: transparent;
     }
-    .close:hover{
-    background-color: transparent;
-    border-radius: 60%;
+
+    .close:hover {
+        background-color: transparent;
+        border-radius: 60%;
         box-shadow: transparent;
     }
-    .success-icon{
+
+    .success-icon {
         position: relative;
         left: 60px;
         top: 0px;
         border: none;
-        background-color: transparent; 
-    
+        background-color: transparent;
+
     }
-     .cost-of-setup{
-    position: relative;
- }
-.popup-form-container {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 290px;
-    height: 462px;
-    padding: 44px 39px;
-    border-radius: 32px;
-    border: 2px solid transparent;
-    background: linear-gradient(#dbbfff, #dbbfff) padding-box,
-                linear-gradient(to right, #383fec, #23ffff) border-box;
-    box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
-                0px 0px 20px rgba(215, 149, 255, 1);
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    z-index: 100;
-}
+
+    .cost-of-setup {
+        position: relative;
+    }
+
+    .popup-form-container {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 290px;
+        height: 462px;
+        padding: 44px 39px;
+        border-radius: 32px;
+        border: 2px solid transparent;
+        background: linear-gradient(#dbbfff, #dbbfff) padding-box,
+            linear-gradient(to right, #383fec, #23ffff) border-box;
+        box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
+            0px 0px 20px rgba(215, 149, 255, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+    }
 
 
-.popup-form-title {
-    font-family: Play;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 46.8px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+    .popup-form-title {
+        font-family: Play;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 46.8px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
 
 
-}
+    }
 
-.popap-form-description {
-    font-family: Play;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 19.5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+    .popap-form-description {
+        font-family: Play;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
 
-}
+    }
 
-.popap-form-input {
-    margin-bottom: 17px;
-    width: 95%;
-    font-family: Karla;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 19.5px;
-    text-align: left;
-    padding-left: 10px;
-    color: rgba(0, 0, 0, 0.5);
-    height: 55px;
-    gap: 0px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    .popap-form-input {
+        margin-bottom: 17px;
+        width: 95%;
+        font-family: Karla;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+        padding-left: 10px;
+        color: rgba(0, 0, 0, 0.5);
+        height: 55px;
+        gap: 0px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
 
-}
+    }
 
-.form-privacy-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    .form-privacy-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
 
-}
+    }
 
-.popup-form-privacy {
-    font-family: Play;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 15px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+    .popup-form-privacy {
+        font-family: Play;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
 
-}
+    }
 
-.popap-form-button {
-    width: 228px;
-    height: 63px;
-    padding: 20px;
-    gap: 10px;
-    border-radius: 19px;
-    margin-bottom: 17px;
+    .popap-form-button {
+        width: 228px;
+        height: 63px;
+        padding: 20px;
+        gap: 10px;
+        border-radius: 19px;
+        margin-bottom: 17px;
 
-}
+    }
 
 
-.success-container {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    display: contents;
-    position: relative;
-    width: 340px;
-    height: 208px;
-    border-radius: 20px;
-    border: 2px;
-    background: rgba(99, 71, 135, 1);
-    border: 2px solid transparent;
-    background: linear-gradient(#634787, #634787) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
-        0px 0px 20px rgba(215, 149, 255, 1)
-}
+    .success-container {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: contents;
+        position: relative;
+        width: 340px;
+        height: 208px;
+        border-radius: 20px;
+        border: 2px;
+        background: rgba(99, 71, 135, 1);
+        border: 2px solid transparent;
+        background: linear-gradient(#634787, #634787) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
+            0px 0px 20px rgba(215, 149, 255, 1)
+    }
 
-.success-message {
-    position: relative;
-    top: -35px;
-    font-family: Play;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: -0.035em;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+    .success-message {
+        position: relative;
+        top: -35px;
+        font-family: Play;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.035em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
 
-}
+    }
 
-.close {
-    position: relative;
-    left: 285px;
-    top: -82px;
-    border: none;
-    background-color: transparent;
-}
-.close:hover{
-background-color: transparent;
-border-radius: 60%;
-    box-shadow: transparent;
-}
-.success-icon{
-    position: relative;
-    left: 60px;
-    top: 0px;
-    border: none;
-    background-color: transparent; 
+    .close {
+        position: relative;
+        left: 285px;
+        top: -82px;
+        border: none;
+        background-color: transparent;
+    }
 
-}
+    .close:hover {
+        background-color: transparent;
+        border-radius: 60%;
+        box-shadow: transparent;
+    }
+
+    .success-icon {
+        position: relative;
+        left: 60px;
+        top: 0px;
+        border: none;
+        background-color: transparent;
+
+    }
 
     .cost-of-setup-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin: 0 auto;
         margin-bottom: 20px;
         width: 325px;
@@ -1020,7 +1033,7 @@ border-radius: 60%;
         box-shadow:
             inset 0px 0px 20px rgba(215, 149, 255, 1),
             0px 0px 20px rgba(215, 149, 255, 1);
-        }
+    }
 
     .cost-of-setup-item {
         margin-bottom: 10px;
@@ -1209,7 +1222,7 @@ border-radius: 60%;
 
     .image-form {
         position: relative;
-        top: -150px;
+        top: -10px;
         z-index: 2;
         width: 485px;
     }
@@ -1285,12 +1298,20 @@ border-radius: 60%;
 
 
 @media (min-width: 1200px) {
+    .flex-box {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
     body {
 
 
         margin: 0;
         display: block;
-        background-image: url(../images/Фон_Страница_CRM.png);
+        background-image: url('../images/Фон_Страница_CRM.png');
         background-size: cover;
 
     }
@@ -1302,7 +1323,7 @@ border-radius: 60%;
     }
 
     .banner {
-        background-image: url(../images/Capa\ 1\ \(1\).png);
+        background-image: url('../images/Capa.png');
         background-size: cover;
         margin-bottom: 120px;
     }
@@ -1332,9 +1353,12 @@ border-radius: 60%;
     }
 
     .img-right,
-    .img-left,
+    .img-left {
+        width: 80%;
+    }
+
     .banner_img-desc {
-        width: 100%;
+        width: auto;
     }
 
     .button {
@@ -1377,6 +1401,19 @@ border-radius: 60%;
         mask-composite: exclude;
     }
 
+    .crm-in-business-paragraph {
+        color: rgba(255, 255, 255, 1);
+        font-family: Play;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+        letter-spacing: 0.02em;
+        text-align: center;
+        background: linear-gradient(266.77deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
     .header__second {
         font-family: Play;
@@ -1389,11 +1426,14 @@ border-radius: 60%;
 
     }
 
+
     .container_grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .grid-item {
@@ -1414,11 +1454,14 @@ border-radius: 60%;
 
     }
 
-    .container-cards-flex{
+    .container-cards-flex {
         display: flex;
     }
+
     .container-cards {
-        background-image: url(./images/Group\ 1.png)
+        background-image: url('../images/Capa.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -1613,6 +1656,9 @@ border-radius: 60%;
         padding: 2px;
         background: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
         margin-bottom: 10px;
+        /* margin-left: 55px; */
+        width: 340px;
+        max-width: 0 auto;
     }
 
     .input {
@@ -1728,6 +1774,9 @@ border-radius: 60%;
         list-style: none;
         padding: 0;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .crm-benefits-container li {
@@ -1754,7 +1803,7 @@ border-radius: 60%;
         transform: translateY(-70%);
         width: 50px;
         height: 55px;
-        background-image: url('../images/Checkbox\ \(1\).png');
+        background-image: url('../images/Checkbox_1.png');
         background-size: 50px;
     }
 
@@ -1788,7 +1837,7 @@ border-radius: 60%;
 
     .crm-in-business-container {
         display: flex;
-        gap: 70px;
+        gap: 0px;
     }
 
     .form-container {
@@ -1805,7 +1854,7 @@ border-radius: 60%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .form-container::before {
@@ -1835,7 +1884,13 @@ border-radius: 60%;
         border-radius: 30px;
         opacity: 0px;
         padding: 25px 80px;
+        margin: 0 auto;
 
+    }
+
+    .crm-in-business-card img {
+        margin: 0 auto;
+        display: flex;
     }
 
     .company-in-container {
@@ -1926,9 +1981,9 @@ border-radius: 60%;
     .platform-info {
         color: rgba(255, 255, 255, 1);
         font-family: Play;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
-        line-height: 15.4px;
+        line-height: 22px;
         text-align: left;
 
         letter-spacing: 0.02em;
@@ -1940,6 +1995,9 @@ border-radius: 60%;
     }
 
     .cost-of-setup-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin: 0 auto;
         margin-bottom: 20px;
         width: 340px;
@@ -1966,9 +2024,9 @@ border-radius: 60%;
 
     .cost-of-setup-description {
         font-family: Play;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 14px;
+        line-height: 22px;
         text-align: left;
         color: rgba(255, 255, 255, 1);
         padding: 10px;
@@ -2000,7 +2058,7 @@ border-radius: 60%;
 
     .cost-of-setup-benefit-text {
         font-family: Play;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 20px;
         text-align: left;
@@ -2025,11 +2083,15 @@ border-radius: 60%;
 
     }
 
+    .form-group,
+    .form-button {
+        width: 350px;
+    }
+
     .form-group-img {
-        left: 41%;
         position: absolute;
         width: 710px;
-        top: -97px;
+        top: -17px;
 
     }
 
@@ -2166,10 +2228,11 @@ border-radius: 60%;
 
     .breadcrumb-list,
     .breadcrumb-sublist {
+        margin-top: 10px;
         display: flex;
         list-style: none;
         font-family: Play;
-        font-size: 12px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 12px;
         text-align: center;
@@ -2211,9 +2274,10 @@ border-radius: 60%;
     .cost-of-setup-flex {
         display: flex;
     }
-    .cost-of-setup{
+
+    .cost-of-setup {
         position: relative;
-     }
+    }
 
     .popup-form-container {
         margin: 0 auto;
@@ -2224,17 +2288,17 @@ border-radius: 60%;
         border-radius: 32px;
         border: 2px solid transparent;
         background: linear-gradient(#dbbfff, #dbbfff) padding-box,
-                    linear-gradient(to right, #383fec, #23ffff) border-box;
+            linear-gradient(to right, #383fec, #23ffff) border-box;
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
-                    0px 0px 20px rgba(215, 149, 255, 1);
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
+            0px 0px 20px rgba(215, 149, 255, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 100;
     }
-    
-    
+
+
     .popup-form-title {
         font-family: Play;
         font-size: 24px;
@@ -2242,10 +2306,10 @@ border-radius: 60%;
         line-height: 46.8px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
-    
+
+
     }
-    
+
     .popap-form-description {
         font-family: Play;
         font-size: 15px;
@@ -2253,9 +2317,9 @@ border-radius: 60%;
         line-height: 19.5px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-input {
         margin-bottom: 17px;
         width: 95%;
@@ -2271,16 +2335,16 @@ border-radius: 60%;
         border-radius: 10px;
         border: 1px solid transparent;
         background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
-    
+
     }
-    
+
     .form-privacy-container {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-    
+
     }
-    
+
     .popup-form-privacy {
         font-family: Play;
         font-size: 10px;
@@ -2288,9 +2352,9 @@ border-radius: 60%;
         line-height: 15px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-button {
         width: 228px;
         height: 63px;
@@ -2298,10 +2362,10 @@ border-radius: 60%;
         gap: 10px;
         border-radius: 19px;
         margin-bottom: 17px;
-    
+
     }
-    
-    
+
+
     .success-container {
         margin: 0 auto;
         margin-bottom: 10px;
@@ -2321,7 +2385,7 @@ border-radius: 60%;
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
             0px 0px 20px rgba(215, 149, 255, 1)
     }
-    
+
     .success-message {
         position: relative;
         top: -35px;
@@ -2332,9 +2396,9 @@ border-radius: 60%;
         letter-spacing: -0.035em;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .close {
         position: relative;
         left: 285px;
@@ -2342,18 +2406,20 @@ border-radius: 60%;
         border: none;
         background-color: transparent;
     }
-    .close:hover{
-    background-color: transparent;
-    border-radius: 60%;
+
+    .close:hover {
+        background-color: transparent;
+        border-radius: 60%;
         box-shadow: transparent;
     }
-    .success-icon{
+
+    .success-icon {
         position: relative;
         left: 60px;
         top: 0px;
         border: none;
-        background-color: transparent; 
-    
+        background-color: transparent;
+
     }
 
 
@@ -2362,7 +2428,7 @@ border-radius: 60%;
 
 }
 
-@media (max-width: 600px) and (min-width: 380px) {
+@media (max-width: 740px) and (min-width: 375px) {
 
 
 
@@ -2376,7 +2442,7 @@ border-radius: 60%;
         border: 4px dashed transparent;
         top: 139.62px;
         left: -1884.86px;
-        background-image: url(../images/Фон_Моб_CRM.png);
+        background-image: url('../images/Фон_Моб_CRM.png');
         background-size: cover;
     }
 
@@ -3171,9 +3237,10 @@ border-radius: 60%;
         margin-bottom: 70px;
     }
 
-    .cost-of-setup{
+    .cost-of-setup {
         position: relative;
-     }
+    }
+
     .popup-form-container {
         margin: 0 auto;
         margin-bottom: 10px;
@@ -3183,17 +3250,17 @@ border-radius: 60%;
         border-radius: 32px;
         border: 2px solid transparent;
         background: linear-gradient(#dbbfff, #dbbfff) padding-box,
-                    linear-gradient(to right, #383fec, #23ffff) border-box;
+            linear-gradient(to right, #383fec, #23ffff) border-box;
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
-                    0px 0px 20px rgba(215, 149, 255, 1);
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
+            0px 0px 20px rgba(215, 149, 255, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 100;
     }
-    
-    
+
+
     .popup-form-title {
         font-family: Play;
         font-size: 24px;
@@ -3201,10 +3268,10 @@ border-radius: 60%;
         line-height: 46.8px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
-    
+
+
     }
-    
+
     .popap-form-description {
         font-family: Play;
         font-size: 15px;
@@ -3212,9 +3279,9 @@ border-radius: 60%;
         line-height: 19.5px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-input {
         margin-bottom: 17px;
         width: 95%;
@@ -3230,16 +3297,16 @@ border-radius: 60%;
         border-radius: 10px;
         border: 1px solid transparent;
         background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
-    
+
     }
-    
+
     .form-privacy-container {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-    
+
     }
-    
+
     .popup-form-privacy {
         font-family: Play;
         font-size: 10px;
@@ -3247,9 +3314,9 @@ border-radius: 60%;
         line-height: 15px;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .popap-form-button {
         width: 228px;
         height: 63px;
@@ -3257,10 +3324,10 @@ border-radius: 60%;
         gap: 10px;
         border-radius: 19px;
         margin-bottom: 17px;
-    
+
     }
-    
-    
+
+
     .success-container {
         margin: 0 auto;
         margin-bottom: 10px;
@@ -3280,7 +3347,7 @@ border-radius: 60%;
         box-shadow: inset 0px 0px 20px rgba(215, 149, 255, 1),
             0px 0px 20px rgba(215, 149, 255, 1)
     }
-    
+
     .success-message {
         position: relative;
         top: -35px;
@@ -3291,9 +3358,9 @@ border-radius: 60%;
         letter-spacing: -0.035em;
         text-align: center;
         color: rgba(255, 255, 255, 1);
-    
+
     }
-    
+
     .close {
         position: relative;
         left: 285px;
@@ -3301,20 +3368,22 @@ border-radius: 60%;
         border: none;
         background-color: transparent;
     }
-    .close:hover{
-    background-color: transparent;
-    border-radius: 60%;
+
+    .close:hover {
+        background-color: transparent;
+        border-radius: 60%;
         box-shadow: transparent;
     }
-    .success-icon{
+
+    .success-icon {
         position: relative;
         left: 60px;
         top: 0px;
         border: none;
-        background-color: transparent; 
-    
+        background-color: transparent;
+
     }
-    
+
     .cost-of-setup-header {
         margin-bottom: 45px;
         font-family: Play;
@@ -3328,6 +3397,11 @@ border-radius: 60%;
     }
 
     .cost-of-setup-content {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
         margin: 0 auto;
         margin-bottom: 20px;
         width: 340px;
@@ -3507,9 +3581,8 @@ border-radius: 60%;
         position: relative;
         height: 170px;
         width: 300px;
-        background-image: url("./images/Background\ \(1\).png");
+        background-image: url("./images/Background_1.png");
         background-repeat: no-repeat;
-
 
     }
 
@@ -3524,7 +3597,7 @@ border-radius: 60%;
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url('../images/Background\ Pattern.png');
+        background-image: url('../images/Background_Pattern.png');
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 20px;
@@ -3546,7 +3619,7 @@ border-radius: 60%;
 
     .crm-partner-section-img-one,
     .crm-partner-section-img-two {
-        background-color: white;
+        background-color: rgb(31, 90, 254);
         padding: 16px 22px;
         border-radius: 15px;
     }
